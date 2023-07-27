@@ -1,0 +1,44 @@
+.film {
+	display: grid;
+	grid-template-columns: 40% 58%;
+	align-items: center;
+	grid-gap: 10px;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.film__poster {
+	margin-bottom: 10px;
+	grid-column: 1 / 2;
+}
+
+.film__image {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.film__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	grid-column: 2 / 3;
+}
+.film__title {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.film__subtitle {
+	grid-column: 1 / -1;
+	font-size: 18px;
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 10px;
+	word-break: break-word;
+}
+
+.film__category {
+	color: gray;
+}

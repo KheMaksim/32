@@ -1,0 +1,38 @@
+.form {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.autocomplete {
+	max-height: 300px;
+	width: 68%;
+	border-radius: 10px;
+	border: 1px solid black;
+	overflow-y: scroll;
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	z-index: 10;
+}
+.autocomplete__item {
+	display: block;
+	border-radius: 10px;
+	color: black;
+	background: white;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+
+.form__label {
+	width: 40%;
+	font-size: 22px;
+}
+
+.form__input {
+	width: 100%;
+	padding: 15px;
+	border-radius: 15px;
+}
